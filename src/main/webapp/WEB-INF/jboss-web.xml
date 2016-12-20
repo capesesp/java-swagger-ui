@@ -1,0 +1,8 @@
+<jboss-web>
+   <context-root>ws-beneficiario-v1.0</context-root>
+   <!-- 
+   IMPORTANT: 
+   In newer versions of JBoss, there is no need of jaas URLs anymore just type the security domain name defined in standalone.xml
+    -->
+   <security-domain>openldap</security-domain>
+</jboss-web>
