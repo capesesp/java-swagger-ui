@@ -31,22 +31,4 @@
         <welcome-file>index.xhtml</welcome-file>
         <welcome-file>index.html</welcome-file>
     </welcome-file-list>
-
-    <login-config>
-        <auth-method>BASIC</auth-method>
-        <realm-name>Please authenticate to access restricted content and/or services</realm-name>
-    </login-config>
-
-    <security-constraint>
-        <web-resource-collection>
-            <web-resource-name>restricted</web-resource-name>
-            <url-pattern>/soap/*</url-pattern>
-        </web-resource-collection>
-        <auth-constraint>
-            <role-name>internet</role-name>
-        </auth-constraint>
-        <user-data-constraint>
-            <transport-guarantee>NONE</transport-guarantee>
-        </user-data-constraint>
-    </security-constraint>
 </web-app>

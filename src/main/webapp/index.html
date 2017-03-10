@@ -13,6 +13,11 @@
     <link href='css/standalone.css' rel='stylesheet'/>
     <link href='css/api-explorer.css' rel='stylesheet' type='text/css'/>
     <link href='css/screen.css' media='screen' rel='stylesheet' type='text/css'/>
+    <link href='css/disable-some-try-it-outs.css' media='screen' rel='stylesheet' type='text/css'/>
+    <link href='css/custom.css' media='screen' rel='stylesheet' type='text/css'/>
+    
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 
     <script src='lib/jquery-1.8.0.min.js' type='text/javascript'></script>
     <script src='lib/jquery.slideto.min.js' type='text/javascript'></script>
@@ -46,7 +51,8 @@
             if (url && url.length > 1) {
                 url = decodeURIComponent(url[1]);
             } else {
-                url = 'http://localhost:8080/ws-beneficiario-v1.0/rest/swagger.json';
+                url = null;
+                alert("Missing swagger file URL parameter")
             }
 
             window.swaggerUi = new SwaggerUi({

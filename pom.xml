@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>capesesp</groupId>
     <artifactId>java-swagger-ui</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>war</packaging>
     <description>User interface for REST web services reference</description>
     <url>https://github.com/capesesp/${project.artifactId}</url>
@@ -34,46 +34,7 @@
         <spec.snapshot.version>2.2</spec.snapshot.version>
     </properties>
     
-    <dependencies>
-        <dependency>
-            <groupId>javax.faces</groupId>
-            <artifactId>javax.faces-api</artifactId>
-            <version>${spec.snapshot.version}</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>javax</groupId>
-            <artifactId>javaee-api</artifactId>
-            <version>7.0</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.httpcomponents</groupId>
-            <artifactId>httpclient</artifactId>
-            <version>4.5.2</version>
-        </dependency>
-        <dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-            <version>2.7</version>
-        </dependency>
-        <dependency>
-            <groupId>br.com.capesesp</groupId>
-            <artifactId>java-capesesp-commons</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>io.swagger</groupId>
-            <artifactId>swagger-jersey2-jaxrs</artifactId>
-            <version>1.5.10</version>
-        </dependency>         
-    </dependencies>
+    <dependencies></dependencies>
 
     <developers>
         <developer>

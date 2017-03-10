@@ -1,0 +1,7 @@
+/*
+ * Some custom styling for this theme
+ */ 
+
+.swagger-section .swagger-ui-wrap ul#resources {
+    font-size: 1.1em;
+}

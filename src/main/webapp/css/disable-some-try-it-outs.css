@@ -1,0 +1,31 @@
+/*
+ * This is a custom CSS to disable some 'try it out' buttons that otherwise will lead to crash the browser,
+ * mainly due to response size of certain requests. 
+ */
+
+
+/* arquivoCsv */ 
+h4[data-target="#test-Beneficiario_arquivoCsv"] {
+  display: none !important;
+}
+
+li#Beneficiario_arquivoCsv > div.content > form.sandbox input {
+  display: none !important;
+}
+
+div#test-Beneficiario_arquivoCsv {
+  display: none !important;
+}
+
+/* arquivoJson */
+h4[data-target="#test-Beneficiario_arquivoJson"] {
+  display: none !important;
+}
+
+li#Beneficiario_arquivoJson > div.content > form.sandbox input {
+  display: none !important;
+}
+
+div#test-Beneficiario_arquivoJson {
+  display: none !important;
+}
